@@ -43,7 +43,7 @@ public class PracticeThree {
         for(int row = 0; row<arr.length;row++){
             for(int col = 0; col<arr[row].length;col++){
                 if(col==3){
-                    arr[row][col] = arr[row+1][0];
+                    arr[row][col] = arr[row+1][col];
                 }
                 else{
                 arr[row][col] = arr[row][col+1];
